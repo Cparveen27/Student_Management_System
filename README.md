@@ -1,1 +1,1 @@
-# Student_Management_System (python + sql)
+# Student_Management_System (Python + SQL)
