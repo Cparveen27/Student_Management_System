@@ -2,13 +2,12 @@
 
 A console-based application built using **Python and MySQL** to manage student records efficiently through CRUD operations.
 
----
 
 ## 📌 Project Overview
 
 The Student Management System allows users to perform core database operations such as creating, reading, updating, and deleting student records. It demonstrates practical implementation of database connectivity, structured SQL queries, and backend logic using Python.
 
----
+
 
 ## 🚀 Key Features
 
@@ -21,7 +20,7 @@ The Student Management System allows users to perform core database operations s
 - Secure parameterized SQL queries
 - Structured and modular code
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -32,7 +31,7 @@ The Student Management System allows users to perform core database operations s
 | mysql-connector-python | Connects Python with MySQL |
 | SQL | Performs CRUD operations |
 
----
+
 
 ## 🗄 Database Schema
 
@@ -46,7 +45,7 @@ Table: `students`
 | course  | VARCHAR(100) | Course Name |
 | marks   | FLOAT | Student Marks |
 
----
+
 
 ## ⚙ Installation & Setup
 
