@@ -63,3 +63,11 @@ CREATE TABLE students (
     course VARCHAR(100),
     marks FLOAT
 );
+```
+
+## 2️⃣ Install Required Library
+
+pip install mysql-connector-python
+
+---
+
