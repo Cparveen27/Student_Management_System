@@ -64,8 +64,9 @@ cd Student_Management_System
 
 ### 3️⃣ Configure Database 
     Make sure MySQL is installed and create the required database:
-     CREATE DATABASE student_db;
-     USE student_db;
+    
+    CREATE DATABASE student_db;
+    USE student_db;
 
     CREATE TABLE students (
         id INT PRIMARY KEY AUTO_INCREMENT,
