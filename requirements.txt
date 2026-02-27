@@ -1,0 +1,9 @@
+# python connector
+
+mysql-connector-python
+
+
+
+# install python dependencies
+
+pip install -r requirements.txt
