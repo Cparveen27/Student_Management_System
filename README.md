@@ -25,9 +25,12 @@ The Student Management System allows users to perform core database operations s
 
 ## 🛠 Technologies Used
 
-- **Python**
-- **MySQL**
-- **mysql-connector-python**
+| Technology | Purpose |
+|------------|----------|
+| Python 3 | Application logic and user interaction |
+| MySQL | Database for storing student records |
+| mysql-connector-python | Connects Python with MySQL |
+| SQL | Performs CRUD operations |
 
 ---
 
