@@ -89,3 +89,13 @@ cd Student_Management_System
     python main.py
 
 
+
+## 🧠 Concepts Demonstrated
+
+- CRUD Operations (Create, Read, Update, Delete)
+- Relational Database Design
+- Primary Key & Auto Increment
+- Parameterized Queries (Prevents SQL Injection)
+- Python–MySQL Database Connectivity
+- Modular Programming using Functions
+- User Input Handling & Validation
