@@ -49,19 +49,12 @@ Table: `students`
 
 ## ⚙ Installation & Setup
 
-### 1️⃣ Create Database
+### 1️⃣ Clone the Repository
 
-```sql
-CREATE DATABASE student_db;
-USE student_db;
+```bash
+git clone https://github.com/Cparveen27/Student_Management_System.git
+cd Student_Management_System
 
-CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    age INT,
-    course VARCHAR(100),
-    marks FLOAT
-);
 ```
 
 ### 2️⃣ Install Required Library
@@ -69,17 +62,28 @@ CREATE TABLE students (
     pip install mysql-connector-python
 
 
+### 3️⃣ Configure Database 
+    Make sure MySQL is installed and create the required database:
+     CREATE DATABASE student_db;
+     USE student_db;
 
-### 3️⃣ Configure Database Credentials
+    CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100),
+    marks FLOAT
+);
 
-      Host="localhost"
-      User="root"
-      Password="your_password"
-      Database="student_db"
 
+### 4️⃣ Update Database Credentials
 
+    host="localhost"
+    user="root"
+    password="your_password"
+    database="student_db"
 
-### 4️⃣ Run the Application
+### 5️⃣ Run the Application
 
     python main.py
 
