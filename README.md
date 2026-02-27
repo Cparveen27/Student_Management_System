@@ -10,7 +10,7 @@ The Student Management System allows users to perform core database operations s
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
 - Add new student records
 - View all student details
