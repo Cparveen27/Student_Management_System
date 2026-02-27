@@ -66,8 +66,21 @@ CREATE TABLE students (
 ```
 
 ## 2️⃣ Install Required Library
-
+----
 pip install mysql-connector-python
 
 ---
 
+## 3️⃣ Configure Database Credentials
+
+---
+host="localhost"
+user="root"
+password="your_password"
+database="student_db"
+---
+
+## 4️⃣ Run the Application
+---
+python main.py
+---
