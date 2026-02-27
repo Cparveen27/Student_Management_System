@@ -65,23 +65,23 @@ CREATE TABLE students (
 );
 ```
 
-## 2️⃣ Install Required Library
+### 2️⃣ Install Required Library
 ----
-pip install mysql-connector-python
+- pip install mysql-connector-python
 
 ---
 
-## 3️⃣ Configure Database Credentials
+### 3️⃣ Configure Database Credentials
 
-host="localhost"
-user="root"
-password="your_password"
-database="student_db"
+- host="localhost"
+- user="root"
+- password="your_password"
+- database="student_db"
 
 ---
 
-## 4️⃣ Run the Application
+### 4️⃣ Run the Application
 
-python main.py
+- python main.py
 
 ---
