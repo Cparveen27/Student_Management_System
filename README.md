@@ -1,1 +1,63 @@
-# Student_Management_System (Python + SQL)
+# 🎓 Student Management System
+
+A console-based application built using **Python and MySQL** to manage student records efficiently through CRUD operations.
+
+---
+
+## 📌 Project Overview
+
+The Student Management System allows users to perform core database operations such as creating, reading, updating, and deleting student records.  
+It demonstrates practical implementation of database connectivity, structured SQL queries, and backend logic using Python.
+
+---
+
+## 🚀 Features
+
+- Add new student records
+- View all student details
+- Search student by ID
+- Update student information
+- Delete student records
+- Auto-incremented unique student ID
+- Secure parameterized SQL queries
+- Structured and modular code
+
+---
+
+## 🛠 Technologies Used
+
+- **Python**
+- **MySQL**
+- **mysql-connector-python**
+
+---
+
+## 🗄 Database Schema
+
+Table: `students`
+
+| Column  | Type  | Description |
+|---------|-------|------------|
+| id      | INT (PK, AUTO_INCREMENT) | Unique Student ID |
+| name    | VARCHAR(100) | Student Name |
+| age     | INT | Student Age |
+| course  | VARCHAR(100) | Course Name |
+| marks   | FLOAT | Student Marks |
+
+---
+
+## ⚙ Installation & Setup
+
+### 1️⃣ Create Database
+
+```sql
+CREATE DATABASE student_db;
+USE student_db;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    course VARCHAR(100),
+    marks FLOAT
+);
