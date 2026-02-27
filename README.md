@@ -68,11 +68,11 @@ cd Student_Management_System
      USE student_db;
 
     CREATE TABLE students (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100),
-    age INT,
-    course VARCHAR(100),
-    marks FLOAT
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(100),
+        age INT,
+        course VARCHAR(100),
+        marks FLOAT
 );
 
 
