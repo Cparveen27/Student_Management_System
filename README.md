@@ -47,6 +47,10 @@ Table: `students`
 
 
 
+## 
+
+
+
 ## ⚙ Installation & Setup
 
 ### 1️⃣ Clone the Repository
@@ -68,7 +72,7 @@ cd Student_Management_System
     CREATE DATABASE student_db;
     USE student_db;
 
-    CREATE TABLE students (
+    CREATE TABLE student1 (
         id INT PRIMARY KEY AUTO_INCREMENT,
         name VARCHAR(100),
         age INT,
