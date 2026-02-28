@@ -54,8 +54,8 @@ Table: `students`
 - models.py (Student Model Definition)
 - student_operations.py (CRUD Operations)
 - main.py (Menu & program Execution)
-- requirements.py (Python Dependencies)
-- readme.md (Documentation)
+- requirements.txt (Python Dependencies)
+- README.md (Documentation)
 
 ##
 
