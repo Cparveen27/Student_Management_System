@@ -3,7 +3,7 @@ CREATE DATABASE student_db;
 USE student_db;
 
 # create table
-CREATE TABLE students1
+CREATE TABLE student1
 (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) Not Null,
