@@ -47,8 +47,17 @@ Table: `students`
 
 
 
-## 
+## 📂 Project File Structure
 
+- database.py (Database & Table Creation)
+- db_connection.py (MySQL Connection)
+- models.py (Student Model Definition)
+- student_operations.py (CRUD Operations)
+- main.py (Menu & program Execution)
+- requirements.py (Python Dependencies)
+- readme.md (Documentation)
+
+##
 
 
 ## ⚙ Installation & Setup
